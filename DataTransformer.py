@@ -37,11 +37,12 @@ class DataTransformer:
 
         for i in range(len(experiences)):
             exp = experiences[i]
+
             processed_experiences.append({
                 "title": exp.get("title", "Unknown"),
                 "from": exp.get("start_date", ""),
                 "to": exp.get("end_date", ""),
-                "location": exp.get("location").get("short_display_address", "Unknown")
+                "location": exp.get("location", {}).get("short_display_address", "Unknown")
             })
 
             if i > 0:
@@ -55,7 +56,7 @@ class DataTransformer:
 
                         gap_days = (current_start_date - prev_end_date).days
                         if gap_days > 1:
-                            processed_experiences.append({
+                            processed_experiences.insert(i, {
                                 "title": "Gap in CV",
                                 "from": prev_end_date_str,
                                 "to": current_start_date_str,
