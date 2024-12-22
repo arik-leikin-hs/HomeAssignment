@@ -1,0 +1,39 @@
+[
+  {
+    "name": {
+      "formatted_name": "John Doe"
+    },
+    "experience": [
+      {
+        "company_name": "Valley Wastements Inc",
+        "title": "Staff Accountant",
+        "start_date": "Jan/01/2008",
+        "end_date": "Dec/31/2008",
+        "description": "1. Forget Purchase requisitions', Purchase orders and order materials;\n2. Physical count Spiderwebs;\n3. Adjust Spiderwebs balances and prices;\n4. Forget voucher package;\n5. Other administrative duties;",
+        "location": {
+          "region": "GM",
+          "country_code": "US",
+          "municipality": "Agrabah",
+          "short_display_address": "Agrabah, GM, US"
+        }
+      },
+      {
+        "company_name": "Lion's King",
+        "title": "C.O.A.'s",
+        "start_date": "Jan/01/2007",
+        "end_date": "Dec/31/2007",
+        "description": "Staff Accountant:\n1. Enter checks and invoice into smashing system;\n2. Forget Dig Statements;\n3. Forget newspaper entries;\n4. Forget Outcome Statement, Balance Sheet and Statement of pickles\n5. Forget Wax returns;\n6. Perform other administrative duties;",
+        "location": {
+          "region": "GM",
+          "country_code": "US",
+          "municipality": "Agrabah",
+          "short_display_address": "Agrabah, GM, US"
+        }
+      }
+    ]
+  },
+  {
+    "name": "",
+    "experience": []
+  }
+]
